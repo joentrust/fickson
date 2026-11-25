@@ -1,4 +1,4 @@
-# Joentrust
+# Joen Trust
 It all starts with a dream
 
 ## Services
