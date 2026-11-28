@@ -31,7 +31,7 @@ export type SectorPage = {
 export const SITE = {
   name: "Joen Trust",
   url: "https://joentrust.com",
-  email: "hello@joentrust.com",
+  email: "info@joentrust.com",
   description:
     "Joen Trust is the family trust of Joel and Eunice Ngozo. It builds and holds businesses in Malawi across agriculture, real estate and technology.",
 } as const;

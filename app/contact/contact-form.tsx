@@ -59,7 +59,7 @@ export function ContactForm() {
       </label>
       {state.kind === "failed" && (
         <p className="form-note fail" role="alert">
-          Your message did not send. Please try again, or write to hello@joentrust.com.
+          Your message did not send. Please try again, or write to info@joentrust.com.
         </p>
       )}
       <button className="btn" type="submit" disabled={pending}>
