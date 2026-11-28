@@ -52,6 +52,7 @@ export async function sendContactMessage(
     await kazuni.send.email({
       from: env.CONTACT_FROM_EMAIL,
       to: env.CONTACT_TO_EMAIL,
+      replyTo: env.CONTACT_TO_EMAIL,
       subject: `Website: ${topic} from ${name}`,
       text,
       html,

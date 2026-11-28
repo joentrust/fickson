@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@kazuni/sdk':
-        specifier: ^0.5.2
-        version: 0.5.2
+        specifier: ^0.6.0
+        version: 0.6.0
       next:
         specifier: 16.4.6
         version: 16.4.6(@types/node@26.6.11)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -259,8 +259,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@kazuni/sdk@0.5.2':
-    resolution: {integrity: sha512-43pI6V6ER4uUgzl3XOc3wtE1cSeX0paeRoZ3FLczLevCfLY+LfPR+3y2rGHhy1ooBqY8KXSucO5cW6pkrNq2Dw==}
+  '@kazuni/sdk@0.6.0':
+    resolution: {integrity: sha512-t1dzXwFHuuHZ3NKqGokj7GMGKEnXeJT9iqiJXF4Z/+ygfAwjpu2BY9Nx4VryIE8B3pnrB4rrdUgNhlNHmmIplg==}
     engines: {node: '>=18'}
 
   '@next/env@16.4.6':
@@ -716,7 +716,7 @@ snapshots:
   '@img/sharp-win32-x64@0.35.5':
     optional: true
 
-  '@kazuni/sdk@0.5.2': {}
+  '@kazuni/sdk@0.6.0': {}
 
   '@next/env@16.4.6': {}
 
